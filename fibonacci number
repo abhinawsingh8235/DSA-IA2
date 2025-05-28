@@ -1,0 +1,17 @@
+// Q5. Fibonacci Number.
+
+
+class Solution {
+    public int fib(int n) {
+        if (n < 2) {
+            return n;
+        }
+        return fib(n - 1) + fib(n - 2);
+    }
+
+    public static void main(String[] args) {
+        Solution sol = new Solution();
+        int n = 10;  // Example: find 10th Fibonacci number
+        System.out.println("Fib(" + n + ") = " + sol.fib(n));
+    }
+}
