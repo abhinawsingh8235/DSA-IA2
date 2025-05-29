@@ -16,3 +16,6 @@ class Solution {
         System.out.println("Number of ways to climb " + n + " stairs: " + result);
     }
 }
+
+// Time Complexity: O(2^n)
+// Space Complexity: O(n)
